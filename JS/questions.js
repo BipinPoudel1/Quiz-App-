@@ -12,7 +12,7 @@ const questions=[
         answer:3
     },
     {
-        question: "What disease commonly spead on prirate ships?",
+        question: "What disease commonly spead on pirate ships?",
         options: ['Mumps', 'Tetanus', 'Scurvy', 'Optic Neuritis'],
         answer:2
     },
@@ -23,7 +23,7 @@ const questions=[
     },
     {
         question: "How many faces does a Dodecahedron have?",
-        options: ['12', '110', '1', '6'],
+        options: ['12', '10', '1', '6'],
         answer:0
     }
 ]
