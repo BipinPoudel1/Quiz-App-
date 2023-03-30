@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Images/ideas.png" type="image/x-icon">
+    <link rel="stylesheet" href="quiz.css">
+    <title>aB Quiz</title>
+</head>
+<body>
+    <div class="home custom-box hide">
+        <h3>Instruction</h3>
+        <p>Total Number of Questions: <span class="totalQuestions">5</span></p>
+        <button class="btn" type="button">Start Quiz</button>
+    </div>
+
+    <div class="quiz-box custom-box ">
+        <div class="question-number">
+            Question 1 of 5
+        </div>
+        <div class="question">
+            What year did the Titanic sink in the Atlantic Ocean?
+        </div>
+        <div class="option-container">
+            <div class="option">1985</div>
+            <div class="option">1991</div>
+            <div class="option">2008</div>
+            <div class="option">1912</div>
+        </div>
+        <div class="next-button">
+            <button class="btn" type="button">Next</button>
+        </div>
+        <div class="answer-indicator">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <div class="result-box custom-box hide">
+        <h1>Result</h1>
+        <table>
+            <tr>
+                <td>Total Question</td>
+                <td><span class="totalQuestions">5</span></td>
+            </tr>
+            <tr>
+                <td>Attempted Questions</td>
+                <td><span class="totalAttempt">4</span></td>
+            </tr>
+            <tr>
+                <td>Correct Answers </td>
+                <td><span class="totalCorrect">3</span></td>
+            </tr>
+            <tr>
+                <td>Wrong Answers</td>
+                <td><span class="totalWrong">2</span></td>
+            </tr>
+            <tr>
+                <td>Percentage</td>
+                <td><span class="percentage">60.00%</span></td>
+            </tr>
+            <tr>
+                <td>Total Score</td>
+                <td><span class="totalScore">3/5</span></td>
+            </tr>
+        </table>
+        <button type="button" class="btn">Try Again</button>
+        <button type="button" class="btn">Go to Home</button>
+    </div>
+</body>
+</html>
