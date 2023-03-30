@@ -139,3 +139,7 @@ body{
 .result-box.hide{
     display: none;
 }
+
+.qstn{
+    color: chartreuse;
+}
