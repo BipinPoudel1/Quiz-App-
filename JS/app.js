@@ -1,6 +1,7 @@
 const questionNumber=document.querySelector(".question-number");
 const question= document.querySelector(".question");
 const optionContainer= document.querySelector(".option-container");
+const answerIndicator= document.querySelector(".answer-indicator");
 
 let questionCounter=0;
 let currentQuestion;

@@ -7,7 +7,7 @@ const questions=[
         answer:2
     },
     {
-        question: "Which country has the highest life ecpectancy?",
+        question: "Which country has the highest life expectancy?",
         options: ['Eritrea', 'Myanmar', 'Guyana', 'Hong Kong'],
         answer:3
     },
